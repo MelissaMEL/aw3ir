@@ -16,7 +16,9 @@
             font-family : arial;
         }
 
-         
+         .Entete {
+             background-color: coral;
+         }
         table {
               width: 100%; border: 1;
                text-align: left; 
