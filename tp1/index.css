@@ -1,0 +1,44 @@
+<style>
+          body{
+              background-color:rgb(247, 247, 247);              
+              font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+              font-size: 16px;
+              margin: 100 auto;
+              max-width: 98%;              
+          }
+         
+         .Titre {
+           text-align: center;
+         }
+
+        #name {
+            text-align: center; 
+            font-family : arial;
+        }
+
+         
+        table {
+              width: 100%; border: 1;
+               text-align: left; 
+              
+                 }
+        
+         p {
+             font-size : 16px;
+         }
+    
+
+        a:visited {
+        color : blueviolet;
+      
+        }
+        a:link {
+            color: blue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        .Coordonnées {
+            text-align: center;
+        }
+        </style>
