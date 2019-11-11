@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="Formulaire.css"/>
+    <script type="text/javascript" src="Formulaire.js"></script>
+  </head>
+      <body>
+
+        <div id="header">
+        <h1>Saisie d'une fiche "Personne"</h1>
+        <p>Veuillez remplir les champs suivants :</p>
+        </div>
+
+<section id="Formulaire">
+
+  <form  >
+      <table style="width : 40%">
+      <tr>
+      <th>Nom</th> 
+      <td><input type="text" name="Nom" class="champ"  placeholder="Votre Nom" id="Nom"></td>
+      </tr>
+
+      <tr>
+      <th>Prénom</th> 
+      <td><input type="text" name="Prénom" class="champ" placeholder="Votre Prénom" id="Prénom"></td>
+      </tr>
+
+      <tr>
+      <th>Date de naissance </th>
+      <td><input type="text"  name="Date de naissance" class="champ" placeholder="MM/DD/YYYY"  id="Date de naissance"> </td>
+      </tr>
+      
+      <tr>
+      <th>Adresse</th> 
+      <td> <input type="text" name="Adresse" class="champ" placeholder="N° Rue ...."  id="adresse"></td>
+      </tr>
+
+      <tr>
+      <th>  Mail </th>
+      <td><input type="email" name="email" class="champ" placeholder="exemple@gmail.com" > </td>
+      </tr>
+
+    </table>
+    
+</form>
+
+<div id="boutton">
+    <input type="button" value="Valider" onclick="validation()"></input>
+  </div>
+
+  <div id="error"> </div>
+
+<div id="resultat"> </div>
+
+</section>
+
+</body>
+</html>
