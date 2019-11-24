@@ -26,6 +26,7 @@ body {
   }
   
   #resultat {
+    color: white;
     background-color: green;
     padding: 5px;
     border: 1px;

@@ -17,28 +17,28 @@
   <form  >
       <table style="width : 40%">
       <tr>
-      <th>Nom</th> 
+      <th><label for="Nom">nom</label></th> 
       <td><input type="text" name="Nom" class="champ"  placeholder="Votre Nom" id="Nom"></td>
       </tr>
 
       <tr>
-      <th>Prénom</th> 
-      <td><input type="text" name="Prénom" class="champ" placeholder="Votre Prénom" id="Prénom"></td>
+      <th><label for= "Prenom">Prenom</label></th> 
+      <td><input type="text" name="Prenom" class="champ" placeholder="Votre Prenom" id="Prenom"></td>
       </tr>
 
       <tr>
-      <th>Date de naissance </th>
+      <th><label for="Date de naissance">Date de naissance</label> </th>
       <td><input type="text"  name="Date de naissance" class="champ" placeholder="MM/DD/YYYY"  id="Date de naissance"> </td>
       </tr>
       
       <tr>
-      <th>Adresse</th> 
-      <td> <input type="text" name="Adresse" class="champ" placeholder="N° Rue ...."  id="adresse"></td>
+      <th><lable for="Adresse">Adresse</lable></th> 
+      <td> <input type="text" name="Adresse" class="champ" placeholder="N° Rue ...."  id="Adresse"></td>
       </tr>
 
       <tr>
-      <th>  Mail </th>
-      <td><input type="email" name="email" class="champ" placeholder="exemple@gmail.com" > </td>
+      <th> <label for="Mail">Mail</label>  </th>
+      <td><input type="email" name="email" class="champ" placeholder="exemple@gmail.com" id="Mail" > </td>
       </tr>
 
     </table>
@@ -46,12 +46,11 @@
 </form>
 
 <div id="boutton">
-    <input type="button" value="Valider" onclick="validation()"></input>
+    <input type="button" value="Valider" id="button_click" onclick="validation()"></input>
   </div>
 
   <div id="error"> </div>
-
-<div id="resultat"> </div>
+  <div id="resultat"> </div>
 
 </section>
 
