@@ -13,7 +13,7 @@ Function validation() {
     var error = "";
     document.getElementById("error").innerHTML = "";
     document.getElementById("resultat").innerHTML = "";
-}
+
     var champsList = document.querySelectorAll(".champ");
      
     champsList.forEach(function (champItem) {
@@ -47,3 +47,11 @@ Function validation() {
     console.log(resultat);
     return false;
 
+}
+
+
+
+
+    
+    // Y mettre le code jQuery pour valider tous les champs du formulaire
+});
